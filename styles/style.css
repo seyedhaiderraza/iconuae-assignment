@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Arimo";
+  color: white;
+}
+.about-us {
+  background-color: #000000;
+  padding: 5rem 2rem;
+}
+.about-us-head {
+  font-size: 6rem;
+  font-weight: 500;
+  color: #efefef;
+  margin-left: 10%;
+}
+
+.about-us-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.about-us-text {
+  letter-spacing: -2.5px;
+  width: 42%;
+  overflow-wrap: normal;
+  font-size: 3.4rem;
+  padding: 10% 0% 5% 0%;
+  font-weight: bold;
+}
+
+.text-highlight {
+  color: #1cb647;
+}
+
+.about-us-description {
+  width: 30%;
+  font-size: 1rem;
+  margin-left: 50%;
+}
