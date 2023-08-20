@@ -6,7 +6,7 @@ allFadeEffectSecitons.forEach((element) => {
     element,
     {
       opacity: 0,
-      y: 10, //10 scroll gives slower and visible fade in effect
+      y: 20, //10 scroll gives slower and visible fade in effect
     },
     {
       opacity: 1,
@@ -15,7 +15,7 @@ allFadeEffectSecitons.forEach((element) => {
         trigger: element,
         start: "top bottom",
         end: "bottom top",
-        scrub: true, //true for faster and  for slower
+        scrub: 1, //true for faster and  for slower
       },
     }
   );
