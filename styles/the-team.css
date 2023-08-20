@@ -1,17 +1,18 @@
 .meet-the-team {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 100%;
   margin: 10rem auto;
+  overflow: hidden;
 }
 .meet-the-team-heading {
-  margin-left: 0;
+  margin-left: 25rem;
+  margin-bottom: 2rem;
   font-size: 3.5rem;
 }
 .team-members-container {
   display: flex;
-  margin-left: 0;
-  white-space: nowrap;
+  margin-left: 30rem;
 }
 .team-member {
   margin-right: 2rem;

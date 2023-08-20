@@ -1,5 +1,6 @@
 .our-company-text {
-  margin: 25rem 0 25rem 30rem;
+  margin: 25rem 0 25rem 35rem;
   font-size: 14rem;
   white-space: nowrap;
+  overflow: hidden;
 }
