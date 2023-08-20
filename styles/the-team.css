@@ -12,9 +12,11 @@
 .team-members-container {
   display: flex;
   margin-left: 25rem;
+  animation: carouselMove 15s linear infinite;
 }
 .team-member {
   margin-right: 2rem;
+  flex-shrink: 0;
 }
 .team-member-img {
   width: 25rem;
@@ -22,4 +24,18 @@
 
 .team-member-design {
   color: #505050;
+}
+
+.team-carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes carouselMove {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
