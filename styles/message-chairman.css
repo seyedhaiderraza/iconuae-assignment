@@ -1,6 +1,7 @@
 .message-chairman {
   width: 50%;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
+  padding-bottom: 10rem;
 }
 .message-content-container {
   width: 100%;
@@ -9,7 +10,7 @@
   align-items: flex-start;
   text-align: left;
   justify-content: flex-start;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 .message-heading {
   color: #1cb647;
