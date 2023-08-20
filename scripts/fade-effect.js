@@ -15,7 +15,7 @@ allFadeEffectSecitons.forEach((element) => {
         trigger: element,
         start: "top bottom",
         end: "bottom top",
-        scrub: 3, //true for faster and  for slower
+        scrub: true, //true for faster and  for slower
       },
     }
   );
