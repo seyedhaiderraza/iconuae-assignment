@@ -1,0 +1,30 @@
+/* Responsive styles for iPhone 11 (375px) */
+@media (min-width: 375px) and (max-width: 768px) {
+  .our-company-text {
+    margin: 5rem 0 5rem 10rem;
+    font-size: 3rem;
+  }
+}
+
+/* Responsive styles for Samsung tablet (768px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .our-company-text {
+    margin: 0rem 0 0rem 20rem;
+    font-size: 4rem;
+  }
+}
+
+/* Responsive styles for 14-inch laptop (1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .our-company-text {
+    margin: 20rem 0 20rem 25rem;
+    font-size: 10rem;
+  }
+}
+/* 
+.our-company-text {
+  margin: 25rem 0 25rem 35rem;
+  font-size: 14rem;
+  white-space: nowrap;
+  overflow: hidden;
+} */
