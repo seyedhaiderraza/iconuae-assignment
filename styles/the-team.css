@@ -16,7 +16,6 @@
 }
 .team-member {
   margin-right: 2rem;
-  flex-shrink: 0;
 }
 .team-member-img {
   width: 25rem;

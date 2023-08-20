@@ -1,6 +1,11 @@
 .our-company-text {
-  margin: 25rem 0 25rem 35rem;
+  margin: 20rem 0;
   font-size: 14rem;
   white-space: nowrap;
+
+  /* overflow: hidden; to show full company text*/
+}
+
+.horizontal-scroll {
   overflow: hidden;
 }

@@ -26,10 +26,11 @@
   background-clip: text;
   color: transparent;
   font-weight: bolder;
-  font-size: 15rem;
+  font-size: 14rem;
   position: absolute;
-  left: 30rem;
-  top: 118rem;
+  left: 20rem;
+  top: 10rem;
+  z-index: 999; /*to keep text above both images*/
 }
 .our-vision-description {
   width: 31%; /*570px; */
