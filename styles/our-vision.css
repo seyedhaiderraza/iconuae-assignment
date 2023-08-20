@@ -1,6 +1,7 @@
 .our-vision {
   background-color: #000000;
-  padding: 6rem 2rem;
+  margin: 10rem 8rem;
+  display: flex;
 }
 .our-vision-img-2,
 .our-vision-img-1 {
@@ -8,12 +9,15 @@
 }
 
 .our-vision-img-1 {
-  width: 23%;
+  width: 25%;
   height: 40%; /*Todo need work*/
+  margin-right: 0;
 }
 .our-vision-img-2 {
+  margin-top: 12%;
   width: 17%;
   height: 21%; /*Todo need work*/
+  margin-left: 0;
 }
 .our-vision-text {
   letter-spacing: -1rem;
@@ -22,12 +26,15 @@
   background-clip: text;
   color: transparent;
   font-weight: bolder;
-  font-size: 1000%;
+  font-size: 15rem;
+  position: absolute;
+  left: 30rem;
+  top: 118rem;
 }
 .our-vision-description {
   width: 31%; /*570px; */
-  height: 35rem;
-  font-size: 2.9rem;
+  height: 28rem;
+  font-size: 2.3rem;
   font-weight: bold;
   padding: 3%;
   border-radius: 12px;
