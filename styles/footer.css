@@ -30,6 +30,14 @@ footer {
 .input-email::placeholder {
   color: #cfcfcf;
 }
+.input-email:focus {
+  border-color: transparent;
+  outline: none;
+}
+
+.input-email:focus::placeholder {
+  color: transparent;
+}
 .email-input-hr {
   border-color: #c9c9c93d;
   margin-top: 0.5rem;
@@ -37,8 +45,60 @@ footer {
 }
 svg {
   margin-left: 35rem;
+  cursor: pointer;
 }
+/* mid section */
 .mid-section {
+  width: 88%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5rem 4rem 5rem 8rem;
+}
+.mid-section > div {
+  margin: 0;
+}
+.mid-section > div > h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.mid-section-container {
+  display: flex;
+}
+.mid-section p {
+  font-size: 0.9rem;
+  color: black;
+  margin-right: 3rem;
+  line-height: 2rem;
+}
+/* bottom  section */
+.footer-bottom-section-hr {
+  border-color: #c9c9c93d;
+  margin-top: 0.5rem;
+  white-space: nowrap;
+  width: 100%;
+  position: absolute;
+  left: 0;
 }
 .bottom-section {
+  color: black;
+  font-size: 0.8rem;
+  display: flex;
+  margin: 1rem 0rem;
+}
+
+.footer-text-1 {
+  margin-left: 8%;
+}
+.footer-text-2 {
+  margin-left: 30%;
+}
+.footer-text-3 {
+  margin-left: 5%;
+}
+
+.mid-section > * > *,
+.mid-section > * > * > * {
+  color: black;
 }
