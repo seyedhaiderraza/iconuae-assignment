@@ -1,0 +1,64 @@
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-us {
+    padding: 3rem 1rem;
+  }
+
+  .about-us-head {
+    font-size: 4rem;
+  }
+
+  .about-us-text {
+    width: 100%;
+    font-size: 2rem;
+    padding: 5% 0% 3% 0%;
+  }
+
+  .about-us-description {
+    width: 100%;
+    font-size: 0.9rem;
+    margin-left: 0;
+  }
+}
+
+/* iPhone 11 (375px) */
+@media (max-width: 375px) {
+  .about-us-head {
+    font-size: 3rem;
+  }
+
+  .about-us-text {
+    font-size: 1.8rem;
+    padding: 3% 0% 2% 0%;
+  }
+
+  .about-us-description {
+    font-size: 0.85rem;
+  }
+}
+
+/* 14-inch Laptop (1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .container {
+    margin: 0px 3rem;
+  }
+
+  .about-us {
+    padding: 4rem 1.5rem;
+  }
+
+  .about-us-head {
+    font-size: 5rem;
+  }
+
+  .about-us-text {
+    font-size: 2.8rem;
+    padding: 7% 0% 4% 0%;
+  }
+
+  .about-us-description {
+    width: 40%;
+    font-size: 1rem;
+    margin-left: 40%;
+  }
+}
