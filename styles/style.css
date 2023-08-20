@@ -8,10 +8,14 @@
 @import url("./instagram.css");
 @import url("./footer.css");
 /* Responsive css */
-@import url("./about-us-responsive.css");
-@import url("./our-vision-responsive.css");
-
-@import url("./our-company-text-responsive.css");
+@import url("./responsive-about-us.css");
+@import url("./responsive-our-vision.css");
+@import url("./responsive-why-rms.css");
+@import url("./responsive-our-company-text.css");
+@import url("./responsive-the-team.css");
+@import url("./responsive-message-chairman.css");
+@import url("./responsive-instagram.css");
+@import url("./responsive-footer.css");
 * {
   margin: 0 auto;
   padding: 0;

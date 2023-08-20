@@ -7,12 +7,11 @@
 }
 .meet-the-team-heading {
   margin-left: 25rem;
-  margin-bottom: 2rem;
   font-size: 3.5rem;
 }
 .team-members-container {
   display: flex;
-  margin-left: 30rem;
+  margin-left: 25rem;
 }
 .team-member {
   margin-right: 2rem;

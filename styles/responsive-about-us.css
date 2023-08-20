@@ -1,0 +1,19 @@
+/* Mobile Phones - iPhones and Android */
+@media (max-width: 767px) {
+  /* Your mobile-specific CSS rules here */
+}
+
+/* Tablets - Samsung, iPads, and similar */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Your tablet-specific CSS rules here */
+}
+
+/* Laptops - 14 inch and 15 inch */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* Your laptop-specific CSS rules here */
+}
+
+/* Larger Monitors - 21-24 inch */
+@media (min-width: 1441px) and (max-width: 1920px) {
+  /* Your large monitor-specific CSS rules here */
+}
