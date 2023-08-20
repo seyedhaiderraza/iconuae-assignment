@@ -38,5 +38,8 @@
   font-weight: bold;
   padding: 3%;
   border-radius: 12px;
-  background-color: blue;
+  margin-top: 22rem;
+  z-index: 999;
+  border: 1px solid #164924;
+  background-color: black;
 }
