@@ -1,0 +1,25 @@
+.meet-the-team {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10rem auto;
+}
+.meet-the-team-heading {
+  margin-left: 0;
+  font-size: 3.5rem;
+}
+.team-members-container {
+  display: flex;
+  margin-left: 0;
+  white-space: nowrap;
+}
+.team-member {
+  margin-right: 2rem;
+}
+.team-member-img {
+  width: 25rem;
+}
+
+.team-member-design {
+  color: #505050;
+}
