@@ -1,19 +1,107 @@
 /* Mobile Phones - iPhones and Android */
 @media (max-width: 767px) {
-  /* Your mobile-specific CSS rules here */
+  .message-chairman {
+    width: 80%;
+    padding-bottom: 5rem;
+  }
+  .message-heading {
+    color: #1cb647;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 1.5rem 0;
+  }
+  .message-text {
+    font-size: 0.8rem;
+  }
+  .user-container {
+    display: flex;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .user-content {
+    margin: 0.5rem 0 0 1rem;
+    font-size: 0.8rem;
+  }
+  .user-container-img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+  }
+
+  .instagram-id {
+    position: absolute;
+    left: -2rem;
+    top: 18rem;
+  }
 }
 
 /* Tablets - Samsung, iPads, and similar */
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* Your tablet-specific CSS rules here */
+  .message-chairman {
+    width: 60%;
+  }
+  .message-heading {
+    color: #1cb647;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 1.5rem 0;
+  }
+  .message-text {
+    font-size: 1.8rem;
+  }
+  .user-container {
+    display: flex;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .user-content {
+    margin: 0.5rem 0 0 1rem;
+    font-size: 1rem;
+  }
+  .user-container-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .instagram-id {
+    position: absolute;
+    left: -3rem;
+    top: 30rem;
+  }
 }
 
 /* Laptops - 14 inch and 15 inch */
 @media (min-width: 1025px) and (max-width: 1440px) {
-  /* Your laptop-specific CSS rules here */
-}
+  .message-chairman {
+    width: 70%;
+  }
+  .message-heading {
+    color: #1cb647;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 1.5rem 0;
+  }
+  .message-text {
+    font-size: 2.5rem;
+  }
+  .user-container {
+    display: flex;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .user-content {
+    margin: 0.5rem 0 0 1rem;
+  }
+  .user-container-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
 
-/* Larger Monitors - 21-24 inch */
-@media (min-width: 1441px) and (max-width: 1920px) {
-  /* Your large monitor-specific CSS rules here */
+  .instagram-id {
+    position: absolute;
+    left: -5rem;
+    top: 33rem;
+  }
 }
