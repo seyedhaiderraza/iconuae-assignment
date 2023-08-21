@@ -1,19 +1,149 @@
 /* Mobile Phones - iPhones and Android */
 @media (max-width: 767px) {
-  /* Your mobile-specific CSS rules here */
+  .our-vision {
+    background-color: #000000;
+    margin: 10rem 1rem;
+    display: flex;
+  }
+  .our-vision-img-2,
+  .our-vision-img-1 {
+    border-radius: 8%;
+  }
+
+  .our-vision-img-1 {
+    width: 35%;
+    height: 40%; /*Todo need work*/
+    margin-right: 0;
+  }
+  .our-vision-img-2 {
+    margin-top: 18%;
+    width: 25%;
+    height: 21%; /*Todo need work*/
+    margin-left: 0;
+  }
+  .our-vision-text {
+    letter-spacing: -0.25rem;
+    background: linear-gradient(to top, transparent 0%, white 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-size: 3rem;
+    position: absolute;
+    left: 3.8rem;
+    top: -2.5rem;
+    z-index: 999; /*to keep text above both images*/
+  }
+  .our-vision-description {
+    width: 32%; /*570px; */
+    height: 60%;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding: 3%;
+    border-radius: 12px;
+    margin-top: -0.5rem;
+    z-index: 999;
+    border: 0.1px solid #164924;
+    background-color: black;
+  }
 }
 
-/* Tablets - Samsung, iPads, and similar */
+/* Tablets - Samsung, iPad */
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* Your tablet-specific CSS rules here */
+  .our-vision {
+    background-color: #000000;
+    margin: 10rem 8rem;
+    display: flex;
+  }
+  .our-vision-img-2,
+  .our-vision-img-1 {
+    border-radius: 8%;
+  }
+
+  .our-vision-img-1 {
+    width: 34%;
+    height: 40%; /*Todo need work*/
+    margin-right: 0;
+  }
+  .our-vision-img-2 {
+    margin-top: 18%;
+    width: 26%;
+    height: 21%; /*Todo need work*/
+    margin-left: 0;
+  }
+  .our-vision-text {
+    letter-spacing: -0.4rem;
+    background: linear-gradient(to top, transparent 0%, white 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-size: 5.5rem;
+    position: absolute;
+    left: 6.5rem;
+    top: -2rem;
+    z-index: 999; /*to keep text above both images*/
+  }
+  .our-vision-description {
+    width: 32%; /*570px; */
+    height: 60%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3%;
+    border-radius: 12px;
+    margin-top: 2.5rem;
+    z-index: 999;
+    border: 1px solid #164924;
+    background-color: black;
+  }
 }
 
 /* Laptops - 14 inch and 15 inch */
 @media (min-width: 1025px) and (max-width: 1440px) {
-  /* Your laptop-specific CSS rules here */
-}
+  .our-vision {
+    background-color: #000000;
+    margin: 10rem 8rem;
+    display: flex;
+  }
+  .our-vision-img-2,
+  .our-vision-img-1 {
+    border-radius: 8%;
+  }
 
-/* Larger Monitors - 21-24 inch */
-@media (min-width: 1441px) and (max-width: 1920px) {
-  /* Your large monitor-specific CSS rules here */
+  .our-vision-img-1 {
+    width: 30%;
+    height: 40%; /*Todo need work*/
+    margin-right: 0;
+  }
+  .our-vision-img-2 {
+    margin-top: 18%;
+    width: 22%;
+    height: 21%; /*Todo need work*/
+    margin-left: 0;
+  }
+  .our-vision-text {
+    letter-spacing: -0.6rem;
+    background: linear-gradient(to top, transparent 0%, white 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-size: 8rem;
+    position: absolute;
+    left: 11.5rem;
+    top: 10rem;
+    z-index: 999; /*to keep text above both images*/
+  }
+  .our-vision-description {
+    width: 31%; /*570px; */
+    height: 60%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 3%;
+    border-radius: 12px;
+    margin-top: 16.5rem;
+    z-index: 999;
+    border: 1px solid #164924;
+    background-color: black;
+  }
 }
