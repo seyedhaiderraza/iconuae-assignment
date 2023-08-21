@@ -1,19 +1,125 @@
 /* Mobile Phones - iPhones and Android */
 @media (max-width: 767px) {
-  /* Your mobile-specific CSS rules here */
+  .container {
+    margin: 0 2rem;
+  }
+  .about-us {
+    background-color: #000000;
+    padding: 3rem 0rem;
+  }
+  .about-us-head {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #efefef;
+    margin-left: 10%;
+  }
+
+  .about-us-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .about-us-text {
+    letter-spacing: -1.5px;
+    width: 60%;
+    overflow-wrap: normal;
+    font-size: 1rem;
+    padding: 10% 0% 5% 0%;
+    font-weight: bold;
+  }
+
+  .text-highlight {
+    color: #1cb647;
+  }
+
+  .about-us-description {
+    width: 50%;
+    font-size: 0.5rem;
+    margin-left: 40%;
+  }
 }
 
-/* Tablets - Samsung, iPads, and similar */
+/* Tablets - Samsung, iPad*/
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* Your tablet-specific CSS rules here */
+  .container {
+    margin: 0 0rem;
+  }
+  .about-us {
+    background-color: #000000;
+    padding: 6rem 3rem;
+  }
+  .about-us-head {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #efefef;
+    margin-left: 10%;
+  }
+
+  .about-us-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .about-us-text {
+    letter-spacing: -2.5px;
+    width: 60%;
+    overflow-wrap: normal;
+    font-size: 2rem;
+    padding: 10% 0% 5% 0%;
+    font-weight: bold;
+  }
+
+  .text-highlight {
+    color: #1cb647;
+  }
+
+  .about-us-description {
+    width: 45%;
+    font-size: 0.7rem;
+    margin-left: 50%;
+  }
 }
 
 /* Laptops - 14 inch and 15 inch */
 @media (min-width: 1025px) and (max-width: 1440px) {
-  /* Your laptop-specific CSS rules here */
-}
+  .about-us {
+    background-color: #000000;
+    padding: 6rem 3rem;
+  }
+  .about-us-head {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #efefef;
+    margin-left: 10%;
+  }
 
-/* Larger Monitors - 21-24 inch */
-@media (min-width: 1441px) and (max-width: 1920px) {
-  /* Your large monitor-specific CSS rules here */
+  .about-us-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .about-us-text {
+    letter-spacing: -2.5px;
+    width: 50%;
+    overflow-wrap: normal;
+    font-size: 2.4rem;
+    padding: 10% 0% 5% 0%;
+    font-weight: bold;
+  }
+
+  .text-highlight {
+    color: #1cb647;
+  }
+
+  .about-us-description {
+    width: 42%;
+    font-size: 0.9rem;
+    margin-left: 50%;
+  }
 }
