@@ -1,19 +1,154 @@
 /* Mobile Phones - iPhones and Android */
 @media (max-width: 767px) {
-  /* Your mobile-specific CSS rules here */
+  footer {
+    padding: 2rem 1rem;
+  }
+  .footer-logo {
+    width: 5rem;
+    height: 2.5rem;
+    margin: 0px 0px 0px 2rem;
+  }
+  .stay-uptodate {
+    font-size: 0.4rem;
+  }
+  .top-section-input {
+    margin: 0 0 0 1rem;
+  }
+
+  .input-email {
+    border: none;
+    font-size: 0.65rem;
+    font-weight: bold;
+    color: gray;
+  }
+  svg {
+    width: 20%;
+    height: 20%;
+    margin-left: 0rem;
+    cursor: pointer;
+  }
+  .email-input-hr {
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+  }
+
+  .mid-section {
+    width: 80%;
+    margin: 0rem 0rem 2rem 2rem;
+  }
+
+  .mid-section > div > h2 {
+    font-size: 0.5rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+  }
+
+  .mid-section p {
+    font-size: 0.3rem;
+    color: black;
+    margin-right: 1rem;
+    line-height: 0.5rem;
+  }
+
+  .bottom-section {
+    font-size: 0.2rem;
+  }
 }
 
-/* Tablets - Samsung, iPads, and similar */
+/* Tablets - Samsung, iPads */
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* Your tablet-specific CSS rules here */
-}
+  footer {
+    padding: 3rem 2rem;
+  }
+  .footer-logo {
+    width: 10rem;
+    height: 5rem;
+    margin: 0px 0px 0px 3rem;
+  }
+  .top-section-input {
+    margin: 0 0 0 2rem;
+  }
 
+  .input-email {
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gray;
+  }
+  svg {
+    margin-left: 3rem;
+    cursor: pointer;
+  }
+  .email-input-hr {
+    border-color: #c9c9c93d;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+  }
+
+  .mid-section {
+    width: 80%;
+    margin: 3rem 0rem 2rem 3rem;
+  }
+
+  .mid-section > div > h2 {
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+  }
+
+  .mid-section p {
+    font-size: 0.8rem;
+    color: black;
+    margin-right: 1rem;
+    line-height: 2rem;
+  }
+
+  .bottom-section {
+    font-size: 0.6rem;
+  }
+}
 /* Laptops - 14 inch and 15 inch */
 @media (min-width: 1025px) and (max-width: 1440px) {
-  /* Your laptop-specific CSS rules here */
-}
+  footer {
+    padding: 4.5rem 2rem;
+  }
 
-/* Larger Monitors - 21-24 inch */
-@media (min-width: 1441px) and (max-width: 1920px) {
-  /* Your large monitor-specific CSS rules here */
+  .stay-uptodate {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+  .input-email {
+    font-size: 2rem;
+  }
+  .email-input-hr {
+    border-color: #c9c9c93d;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+  }
+  svg {
+    margin-left: 10rem;
+    cursor: pointer;
+  }
+  /* mid section */
+  .mid-section {
+    width: 80%;
+    margin: 5rem 2rem 5rem 8rem;
+  }
+  .mid-section > div > h2 {
+    font-size: 1rem;
+  }
+  .mid-section-container {
+    display: flex;
+  }
+
+  /* bottom  section */
+  .footer-bottom-section-hr {
+    border-color: #c9c9c93d;
+    margin-top: 0.5rem;
+    white-space: nowrap;
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
 }

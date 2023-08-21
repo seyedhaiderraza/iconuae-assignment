@@ -1,23 +1,31 @@
 /* Mobile Phones - iPhones and Android */
-@media (max-width: 767px) {
+@media (max-width: 766px) {
+  .instagram {
+    background: white;
+  }
   .instagram-images-container {
     padding-top: 0.2rem;
+    margin-left: 1rem;
   }
   .instagram-image {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     margin-left: 0rem;
   }
 }
 
 /* Tablets - Samsung, iPads, and similar */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .instagram {
+    background: white;
+  }
   .instagram-images-container {
     padding-top: 1rem;
+    margin-left: 1rem;
   }
   .instagram-image {
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
   }
 }
 
