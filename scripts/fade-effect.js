@@ -9,8 +9,8 @@ allFadeEffectSecitons.forEach((element) => {
       y: 10, //10 scroll gives slower and visible fade in effect
     },
     {
-      opacity: 1,
-      y: -2, //position where opacity will become 1
+      opacity: 2,
+      y: 0, //position where opacity will become 1
       scrollTrigger: {
         trigger: element,
         start: "top bottom",
