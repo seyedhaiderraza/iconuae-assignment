@@ -1,19 +1,119 @@
 /* Mobile Phones - iPhones and Android */
 @media (max-width: 767px) {
-  /* Your mobile-specific CSS rules here */
+  .why-rms {
+    width: 70%;
+    margin-bottom: 10rem;
+  }
+  .why-us-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+  }
+  .why-us-heading {
+    color: #1cb647;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    margin: 0 0 1rem 0;
+  }
+  .why-us-text {
+    font-size: 1rem;
+  }
+  .why-us-categories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .why-us-category:first-child {
+    margin-left: 0;
+  }
+  .why-us-category {
+    margin-left: 1rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+  }
 }
 
-/* Tablets - Samsung, iPads, and similar */
+/* Tablets - Samsung, iPads */
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* Your tablet-specific CSS rules here */
+  .why-rms {
+    width: 70%;
+    margin-bottom: 10rem;
+  }
+  .why-us-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+    margin-bottom: 5rem;
+  }
+  .why-us-heading {
+    color: #1cb647;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 1.5rem 0;
+  }
+  .why-us-text {
+    font-size: 2.5rem;
+  }
+  .why-us-categories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .why-us-category:first-child {
+    margin-left: 0;
+  }
+  .why-us-category {
+    margin-left: 2rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
 }
 
 /* Laptops - 14 inch and 15 inch */
 @media (min-width: 1025px) and (max-width: 1440px) {
-  /* Your laptop-specific CSS rules here */
-}
+  .why-rms {
+    width: 70%;
+    margin-bottom: 10rem;
+  }
+  .why-us-content-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+    margin-bottom: 10rem;
+  }
+  .why-us-heading {
+    color: #1cb647;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0 0 1.5rem 0;
+  }
+  .why-us-text {
+    font-size: 3rem;
+  }
+  .why-us-categories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-/* Larger Monitors - 21-24 inch */
-@media (min-width: 1441px) and (max-width: 1920px) {
-  /* Your large monitor-specific CSS rules here */
+  .why-us-category:first-child {
+    margin-left: 0;
+  }
+  .why-us-category {
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }
